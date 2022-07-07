@@ -1,0 +1,129 @@
+span{
+    color:whitesmoke
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav-left {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    .topnav-left > a{
+  font-weight: 900;
+    }
+  .topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  .bd{
+    font-size: larger;
+    color: #f2f2f2;
+    padding-top: 190px;
+   
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  .bd >.p{
+    font-style: italic;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav >.topnav-right> a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+  float: right;
+  }
+  .header {
+      overflow: hidden;
+      color: whitesmoke;
+      padding: 20px 10px;
+      background-color: #333;
+      
+  
+    }
+  
+  .header > .right{
+      size: 100px;
+  }
+body {
+    padding-bottom: 40px;
+    background-color: #10778f;
+    text-align: center;
+    justify-content: center;
+    color: #ddd;
+ }
+ 
+ .form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    color: #017572;
+ }
+ 
+ .form-signin .form-signin-heading,
+ .form-signin .checkbox {
+    margin-bottom: 10px;
+ }
+ 
+ .form-signin .checkbox {
+    font-weight: normal;
+ }
+ 
+ .form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+ }
+ 
+ .form-signin .form-control:focus {
+    z-index: 2;
+ }
+ 
+ .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color:#017572;
+ }
+ 
+ .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color:#017572;
+ }
+ 
+ h2{
+    text-align: center;
+    color: whitesmoke;
+ }
+ a{
+    text-decoration: none;
+    color: whitesmoke;
+ }
+ form .button input{
+    background-color: linear-gradient(135deg, #71b7e6, #0e819a);
+
+ }
